@@ -1,2 +1,81 @@
-<servlet>
-</servlet>
+<web-app>
+
+	<servlet>
+			<servlet-name>input</servlet-name>
+			<jsp-file>/input.jsp</jsp-file>
+	</servlet>
+	<servlet-mapping>
+			<servlet-name>input</servlet-name>
+			<url-pattern>/input</url-pattern>
+	</servlet-mapping>
+	<servlet>
+			<servlet-name>output</servlet-name>
+			<jsp-file>/output.jsp</jsp-file>
+	</servlet>
+	<servlet-mapping>
+			<servlet-name>output</servlet-name>
+			<url-pattern>/output</url-pattern>
+	</servlet-mapping>
+	<servlet>
+			<servlet-name>InputServlet</servlet-name>
+			<servlet-class>InputServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+			<servlet-name>InputServlet</servlet-name>
+			<url-pattern>/inputservlet</url-pattern>
+	</servlet-mapping>
+  
+  
+  
+  <servlet>
+			<servlet-name>inputRadio</servlet-name>
+			<jsp-file>/inputRadio.jsp</jsp-file>
+	</servlet>
+	<servlet-mapping>
+			<servlet-name>inputRadio</servlet-name>
+			<url-pattern>/inputRadio</url-pattern>
+	</servlet-mapping>
+	<servlet>
+			<servlet-name>outputRadio</servlet-name>
+			<jsp-file>/outputRadio.jsp</jsp-file>
+	</servlet>
+	<servlet-mapping>
+			<servlet-name>outputRadio</servlet-name>
+			<url-pattern>/outputRadio</url-pattern>
+	</servlet-mapping>
+	<servlet>
+			<servlet-name>InputRadioServlet</servlet-name>
+			<servlet-class>InputRadioServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+			<servlet-name>InputRadioServlet</servlet-name>
+			<url-pattern>/inputradioservlet</url-pattern>
+	</servlet-mapping>
+	
+  
+  
+	<servlet>
+			<servlet-name>inputCheck</servlet-name>
+			<jsp-file>/inputCheck.jsp</jsp-file>
+	</servlet>
+	<servlet-mapping>
+			<servlet-name>inputCheck</servlet-name>
+			<url-pattern>/inputCheck</url-pattern>
+	</servlet-mapping>
+	<servlet>
+			<servlet-name>outputCheck</servlet-name>
+			<jsp-file>/outputCheck.jsp</jsp-file>
+	</servlet>
+	<servlet-mapping>
+			<servlet-name>outputCheck</servlet-name>
+			<url-pattern>/outputCheck</url-pattern>
+	</servlet-mapping>
+	<servlet>
+			<servlet-name>InputCheckServlet</servlet-name>
+			<servlet-class>InputCheckServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+			<servlet-name>InputCheckServlet</servlet-name>
+			<url-pattern>/inputcheckservlet</url-pattern>
+	</servlet-mapping>
+</web-app>
