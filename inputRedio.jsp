@@ -2,14 +2,14 @@
 	contentType="text/html;charset=Windows-31J" %>
 
 <html>
-<head><title>繝ｦ繝ｼ繧ｶ繝ｼ逋ｻ骭</title></head>
+<head><title>ユーザー登録</title></head>
 <body>
-		<h1>繝ｦ繝ｼ繧ｶ繝ｼ逋ｻ骭</h1>
+		<h1>ユーザー登録</h1>
 		<form method="POST" action="inputradioservlet">
-		aaa
- 			<input type="radio" name="name" value="逕ｷ" checked="checked" /> 逕ｷ縲
- 			<input type="radio" name="name" value="螂ｳ" /> 螂ｳ
-		<input type="submit" value="騾∽ｿ｡" />
+		性別：
+ 			<input type="radio" name="name" value="man" checked="checked" /> 男　
+ 			<input type="radio" name="name" value="woman" /> 女
+		<input type="submit" value="送信" />
 		</form>
 </body>
 </html>
