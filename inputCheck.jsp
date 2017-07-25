@@ -1,15 +1,15 @@
 <%@ page pageEncoding="Windows-31J"
 	contentType="text/html;charset=Windows-31J" %>
-	
+
 <html>
-<head><title>ãƒ¦ãƒ¼ã‚¶ãƒ¼ç™»éŒ²</title></head>
+<head><title>ƒ†[ƒU[“o˜^</title></head>
 <body>
-		<h1>ãƒ¦ãƒ¼ã‚¶ãƒ¼ç™»éŒ²</h1>
-		<form method="POST" action="inputcheckservlet"> 
-		æ€§åˆ¥ï¼š
- 			<input type="checkbox" name="name" value="ç”·" /> ç”·
- 			<input type="checkbox" name="name" value="å¥³" /> å¥³
-		<input type="submit" value="é€ä¿¡" />
+		<h1>ƒ†[ƒU[“o˜^</h1>
+		<form method="POST" action="inputcheckservlet">
+		«•ÊF
+ 			<input type="checkbox" name="name" value="’j" /> ’j
+ 			<input type="checkbox" name="name" value="—" /> —
+		<input type="submit" value="‘—M" />
 		</form>
 </body>
 </html>

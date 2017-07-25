@@ -1,12 +1,13 @@
-<%@ page pageEncoding="Windows-31J" 
+
+<%@ page pageEncoding="Windows-31J"
 	contentType="text/html;charset=Windows-31J" %>
-	
+
 <html>
-<head><title>ç™»éŒ²ã•ã‚ŒãŸãƒ¦ãƒ¼ã‚¶ãƒ¼</title></head>
+<head><title>“o˜^‚³‚ê‚½ƒ†[ƒU[</title></head>
 <body>
-		<h1>ç™»éŒ²ã•ã‚ŒãŸãƒ¦ãƒ¼ã‚¶ãƒ¼</h1>
+		<h1>“o˜^‚³‚ê‚½ƒ†[ƒU[</h1>
 		<table border="1">
-				<tr><th>ãƒ¦ãƒ¼ã‚¶ãƒ¼å</th><th>ãƒ‘ã‚¹ãƒ¯ãƒ¼ãƒ‰</th></tr>
+				<tr><th>ƒ†[ƒU[–¼</th><th>ƒpƒXƒ[ƒh</th></tr>
 				<tr><td>${name}</td><td>${pass}</td></tr>
 		</table>
 </body>

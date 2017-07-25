@@ -1,12 +1,12 @@
-<%@ page pageEncoding="Windows-31J" 
+<%@ page pageEncoding="Windows-31J"
 	contentType="text/html;charset=Windows-31J" %>
-	
+
 <html>
-<head><title>逋ｻ骭ｲ縺輔ｌ縺溘Θ繝ｼ繧ｶ繝ｼ</title></head>
+<head><title>登録されたユーザー</title></head>
 <body>
-		<h1>逋ｻ骭ｲ縺輔ｌ縺溘Θ繝ｼ繧ｶ繝ｼ</h1>
+		<h1>登録されたユーザー</h1>
 		<table border="1">
-				<tr><th>諤ｧ蛻･</th>
+				<tr><th>性別</th>
 				<tr><td>${name}</td>
 		</table>
 </body>
